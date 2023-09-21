@@ -1,0 +1,14 @@
+Vite - JS
+
+emailjs/browsser
+fortawesome/free-brands-svg-icons
+fortawesome/free-solid-svg-icons
+fortawesome/react-fontawesome
+
+animate.css
+gasp-trial
+loaders.css
+react-leaftlet
+react-loaders
+react-router-dom
+sass

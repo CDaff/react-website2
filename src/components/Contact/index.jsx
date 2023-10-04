@@ -18,7 +18,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('gmail','',refForm.current,)
+        emailjs.sendForm('gmail','',refForm.current,'')
         .then(
             () => {
                 alert('Message successfully sent.')
@@ -77,9 +77,9 @@ const Contact = () => {
                     <span>contact email</span>
                 </div>
                 <div className="map-wrap">
-                    <MapContainer center={[]} zoom={13}>
+                    <MapContainer center={[44.96366, 19.61045]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[]}>
+                        <Marker position={[44.96366, 19.61045]}>
                             <Popup>I live here, Don't Stalke Me Please</Popup>
                         </Marker>
                     </MapContainer>

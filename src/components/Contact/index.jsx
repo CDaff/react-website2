@@ -77,8 +77,8 @@ const Contact = () => {
                     <span>contact email</span>
                 </div>
                 <div className="map-wrap">
-                    <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    <MapContainer center={[44.96366, 19.61045]} zoom={13} scrollWheelZoom={false} >
+                        <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[44.96366, 19.61045]}>
                             <Popup>I live here, Don't Stalke Me Please</Popup>
                         </Marker>
